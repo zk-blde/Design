@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// 原型模式demo
+
 func main() {
 	file1 := &File{name: "File1"}
 	file2 := &File{name: "File2"}

@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// 建造者模式demo
+
 func main() {
 	normalBuilder := getBuilder("normal")
 	iglooBuilder := getBuilder("igloo")

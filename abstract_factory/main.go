@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//抽象工厂模式demo
+
 func main() {
 	adidasFactory, _ := GetSportsFactory("adidas")
 	nikeFactory, _ := GetSportsFactory("nike")

@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// 工厂模式demo
+
 func main() {
 	ak47, _ := getGun("ak47")
 	musket, _ := getGun("musket")
