@@ -18,4 +18,6 @@ Go的设计模式都是通过接口和结构体方法的嵌套实现的, 因为G
 
 ## 适配器模式
     通过一个winAdapter模块封装win的类, 实现和mac同样的方法, 实现统一的computer的接口, 通过client的方法实现mac和winAdapter的实例传递, 实现统一适配
-    
+
+## 桥接模式
+    通过电脑的struct包含printer的类, 通过传递printer的实例, 对电脑的printer字段赋值, 实现不同品牌printer的功能
