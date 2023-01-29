@@ -7,6 +7,8 @@ import (
 
 // 客户端代码
 
+// 外观模式
+
 func main() {
 	fmt.Println()
 	walletFacade := newWalletFacade("abc", 1234)
